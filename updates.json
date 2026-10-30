@@ -1,3 +1,12 @@
 {
-  "addons": {}
+  "addons": {
+    "lanista-improvements@edvardsandberg": {
+      "updates": [
+        {
+          "version": "2.3.1",
+          "update_link": "https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.3.1/lanista-improvements-firefox.xpi"
+        }
+      ]
+    }
+  }
 }
