@@ -9,12 +9,13 @@ Webbläsartillägg som gör [Lanista](https://lanista.se) smidigare. Varje till�
 - En kortare, tydligare lagspelslayout
 - Köpslagna priser hos handlarna
 - Förrådet i en ruta över utrustningssidan, med en "Alla"-knapp vid Antal
+- Din egen gladiator förvald vid "Ge bort" i klanförrådet
 - Total skada på vidundrens sidor
 - En knapp som döljer reglerna på värdshusets spelsidor
 - Censur av KP, EP och mynt i sidomenyn
 - Ett extra mörkt tema: Mörk 2.0
 
-**Version 2.3.1** · [⬇️ Firefox](https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.3.1/lanista-improvements-firefox.xpi) · [⬇️ Chrome / Edge / Brave](https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.3.1/lanista-improvements-chrome.zip) · [Vad är nytt?](https://github.com/Trosters/lanista-releases/releases/tag/improvements-v2.3.1)
+**Version 2.4.0** · [⬇️ Firefox](https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.4.0/lanista-improvements-firefox.xpi) · [⬇️ Chrome / Edge / Brave](https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.4.0/lanista-improvements-chrome.zip) · [Vad är nytt?](https://github.com/Trosters/lanista-releases/releases/tag/improvements-v2.4.0)
 
 ## Lanista Planner Integration
 
