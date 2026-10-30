@@ -1,38 +1,48 @@
 # Lanista-tillägg
 
-Webbläsartillägg för [Lanista](https://lanista.se). Varje tillägg installeras
-för sig - ta ett eller båda.
+Webbläsartillägg som gör [Lanista](https://lanista.se) smidigare. Varje tillägg installeras för sig - ta ett eller flera.
 
-| Tillägg | Vad det gör | Ladda ner |
-| --- | --- | --- |
-| **Lanista Improvements** | Rullgardinsmenyer på utrustningssidan, läsbara slutspelsträd i turneringar och dagliga bataljer, en kortare lagspelslayout, köpslagna priser hos handlare, förrådet i en ruta över utrustningssidan, total skada på vidundrens sidor, ett extra mörkt tema med mera. | [Versioner](https://github.com/Trosters/lanista-releases/releases?q=improvements-v&expanded=true) |
-| **Lanista Planner Integration** | En knapp på utrustningssidan som öppnar hela bygget i Lanista-planeraren: gladiatorns utplacerade egenskapspoäng, grad och ras, plus utrustningen som sitter på. | [Versioner](https://github.com/Trosters/lanista-releases/releases?q=planner-v&expanded=true) |
+## Lanista Improvements
 
-Klicka på **Versioner** för tillägget du vill ha. Den översta är den senaste.
+- Rullgardinsmenyer på utrustningssidan
+- Läsbara slutspelsträd i turneringar och dagliga bataljer
+- En kortare, tydligare lagspelslayout
+- Köpslagna priser hos handlarna
+- Förrådet i en ruta över utrustningssidan, med en "Alla"-knapp vid Antal
+- Total skada på vidundrens sidor
+- En knapp som döljer reglerna på värdshusets spelsidor
+- Censur av KP, EP och mynt i sidomenyn
+- Ett extra mörkt tema: Mörk 2.0
+
+**Version 2.3.1** · [⬇️ Firefox](https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.3.1/lanista-improvements-firefox.xpi) · [⬇️ Chrome / Edge / Brave](https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.3.1/lanista-improvements-chrome.zip) · [Vad är nytt?](https://github.com/Trosters/lanista-releases/releases/tag/improvements-v2.3.1)
+
+## Lanista Planner Integration
+
+- En knapp "Öppna i planeraren" på utrustningssidan
+- Öppnar hela bygget i Lanista-planeraren med ett klick
+- Tar med gladiatorns utplacerade egenskapspoäng, grad och ras
+- Tar med all utrustning som sitter på
+
+**Version 2.2.1** · [⬇️ Firefox](https://github.com/Trosters/lanista-releases/releases/download/planner-v2.2.1/lanista-planner-firefox.xpi) · [⬇️ Chrome / Edge / Brave](https://github.com/Trosters/lanista-releases/releases/download/planner-v2.2.1/lanista-planner-chrome.zip) · [Vad är nytt?](https://github.com/Trosters/lanista-releases/releases/tag/planner-v2.2.1)
 
 ## Installera
 
-Filerna heter `lanista-<tillägg>-firefox.xpi` och `lanista-<tillägg>-chrome.zip`,
-t.ex. `lanista-improvements-firefox.xpi`.
-
 ### Firefox
 
-Klicka på filen som slutar på `-firefox.xpi` och godkänn installationen.
+Klicka på **⬇️ Firefox** under tillägget du vill ha och välj **Lägg till** när Firefox frågar.
 
-Tillägget uppdaterar sig självt när en ny version släpps.
+Klart - tillägget uppdaterar sig självt när en ny version kommer.
 
 ### Chrome, Edge, Brave
 
-1. Ladda ner filen som slutar på `-chrome.zip` och packa upp den till en mapp
-   du behåller (tillägget läses från mappen, så radera den inte).
-2. Gå till `chrome://extensions` och slå på **Utvecklarläge** uppe till höger.
-3. Klicka på **Läs in okomprimerat** och välj den uppackade mappen.
+1. Klicka på **⬇️ Chrome / Edge / Brave** under tillägget du vill ha.
+2. Packa upp zip-filen (högerklicka → **Extrahera allt…**) och lägg mappen någonstans där den får ligga kvar, t.ex. i Dokument. Webbläsaren läser tillägget direkt från mappen.
+3. Skriv `chrome://extensions` i adressfältet (`edge://extensions` i Edge).
+4. Slå på **Utvecklarläge**.
+5. Klicka på **Läs in okomprimerat** och välj den uppackade mappen.
 
-Chrome uppdaterar inte tillägg som installerats så här. Vid en ny version:
-packa upp den nya zippen över den gamla mappen och klicka på uppdatera-pilen
-på tillägget i `chrome://extensions`.
+**Ny version?** Chrome uppdaterar inte tillägg som installerats så här. Ladda ner den nya zippen, packa upp den över den gamla mappen och klicka på uppdatera-pilen ↻ på tillägget i `chrome://extensions`.
 
 ---
 
-`updates.json` används av Firefox för automatiska uppdateringar och skrivs av
-release-workflowen. Redigera den inte för hand.
+[Alla versioner](https://github.com/Trosters/lanista-releases/releases) · Den här sidan och `updates.json` skrivs automatiskt vid varje release - redigera dem inte för hand.
