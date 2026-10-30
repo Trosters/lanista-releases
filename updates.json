@@ -7,6 +7,14 @@
           "update_link": "https://github.com/Trosters/lanista-releases/releases/download/improvements-v2.3.1/lanista-improvements-firefox.xpi"
         }
       ]
+    },
+    "lanista-planner@edvardsandberg": {
+      "updates": [
+        {
+          "version": "2.2.1",
+          "update_link": "https://github.com/Trosters/lanista-releases/releases/download/planner-v2.2.1/lanista-planner-firefox.xpi"
+        }
+      ]
     }
   }
 }
